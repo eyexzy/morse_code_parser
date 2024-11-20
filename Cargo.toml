@@ -1,6 +1,6 @@
 [package]
 name = "morse_code_parser"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["eyexzy <eyexzy@gmail.com>"]
 edition = "2021"
 description = "A Morse code parser and decoder implemented in Rust."
