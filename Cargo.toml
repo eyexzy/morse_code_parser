@@ -5,11 +5,13 @@ authors = ["eyexzy <eyexzy@gmail.com>"]
 edition = "2021"
 description = "A Morse code parser and decoder implemented in Rust."
 license = "MIT"
-repository = "https://github.com/eyexzy/morse_code_parser"
+repository = "https://https://github.com/eyexzy/morse_code_parser"
 documentation = "https://docs.rs/morse_code_parser"
 homepage = "https://github.com/eyexzy/morse_code_parser"
-keywords = ["morse", "parser", "decoder", "text-processing", "utilities"]
-categories = ["text-processing", "utilities", "data-structures"]
+
+keywords = ["morse", "parser", "rust"]
+categories = ["text-processing", "parsing"]
+
 
 [dependencies]
 pest = "2.7.5"
