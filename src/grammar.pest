@@ -1,0 +1,6 @@
+WHITESPACE = _{ " " | "\t" | "\n" }
+
+morse_char = { "." | "-" }
+morse_letter = @{ morse_char+ }
+morse_word = { morse_letter ~ (" " ~ morse_letter)* }
+morse_code = { morse_word ~ (" / " ~ morse_word)* }
