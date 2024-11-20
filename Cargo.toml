@@ -1,11 +1,20 @@
 [package]
 name = "morse_code_parser"
 version = "0.1.0"
+authors = ["eyexzy <eyexzy@gmail.com>"]
 edition = "2021"
+description = "A Morse code parser and decoder implemented in Rust."
+license = "MIT"
+repository = "https://github.com/eyexzy/morse_code_parser"
+documentation = "https://docs.rs/morse_code_parser"
+homepage = "https://github.com/eyexzy/morse_code_parser"
+keywords = ["morse", "parser", "decoder", "text-processing", "utilities"]
+categories = ["text-processing", "utilities", "data-structures"]
 
 [dependencies]
 pest = "2.7.5"
 pest_derive = "2.7.5"
 anyhow = "1.0"
 
-
+[badges]
+travis-ci = { repository = "eyexzy/morse_code_parser" }
