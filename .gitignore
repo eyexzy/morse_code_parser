@@ -1,36 +1,28 @@
-# Виключаємо папку `target`, яка містить збірку проекту
 /target
 
-# Локальні файли IDE
 .idea/
 .vscode/
 
-# Файли збірки, артефакти, тимчасові файли
 *.log
 *.tmp
 *.swp
 *.lock
 *.bak
 
-# Файли Windows
 *.exe
 *.pdb
 *.dll
 
-# Файли Unix
 *.dSYM/
 *.so
 *.out
 
-# Файли macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# Rust-specific
 Cargo.lock
 
-# Інші тимчасові файли
 *.o
 *.rlib
 *.bin
