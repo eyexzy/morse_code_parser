@@ -4,6 +4,7 @@ version = "0.1.1"
 authors = ["eyexzy <eyexzy@gmail.com>"]
 edition = "2021"
 description = "A Morse code parser and decoder implemented in Rust."
+license = "MIT"
 repository = "https://https://github.com/eyexzy/morse_code_parser"
 documentation = "https://docs.rs/morse_code_parser"
 homepage = "https://github.com/eyexzy/morse_code_parser"
